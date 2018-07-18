@@ -26,8 +26,9 @@ function makeInt(n){
   n= parseInt(n,10)
   if (n isNaN){
     return
-  } else {
-    return n
+  }
+  else{
+    return
   }
 }
 
