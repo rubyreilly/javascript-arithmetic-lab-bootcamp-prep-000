@@ -22,11 +22,12 @@ function dec(n){
   return n-=1
 }
 
-function makeInt(n,10){
-  if (parseInt(n) isNaN){
+function makeInt(n){
+  n= parseInt(n,10)
+  if (n isNaN){
     return
   } else {
-    return parseInt(n)
+    return n
   }
 }
 
