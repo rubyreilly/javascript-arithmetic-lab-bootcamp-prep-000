@@ -24,9 +24,10 @@ function dec(n){
 
 function makeInt(n,10){
   if (n isNaN){
-    return 
+    return
   }
-  return parseInt(n)
+  else{
+    return parseInt(n)
 }
 
 function preserveDecimal(n){
